@@ -21,19 +21,19 @@ int main() {
     switch(opcao) {
         case 1:
             resul = num1 + num2;
-            printf("Resultado da adicao: %.2f\n", resultado);
+            printf("Resultado da adicao: %.2f\n", resul);
             break;
         case 2:
             resul = num1 - num2;
-            printf("Resultado da subtracao: %.2f\n", resultado);
+            printf("Resultado da subtracao: %.2f\n", resul);
             break;
         case 3:
-            resultado = num1 * num2;
-            printf("Resultado da multiplicacao: %.2f\n", resultado);
+            resul = num1 * num2;
+            printf("Resultado da multiplicacao: %.2f\n", resul);
             break;
         case 4:
-            resultado = num1 / num2;
-            printf("Resultado da divisao: %.2f\n", resultado);
+            resul = num1 / num2;
+            printf("Resultado da divisao: %.2f\n", resul);
             break;
         case 5:
             printf("Resto da divisao inteira: %d\n", (int)num1 % (int)num2);
@@ -41,3 +41,5 @@ int main() {
         default:
             printf("Opcao invalida!\n");
     }
+    return 0;
+}
