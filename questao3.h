@@ -13,7 +13,6 @@ int main() {
         scanf("%d", &num);
 
         if (i == 1) {
-            // Primeiro número, assume que é o maior por enquanto
             m = num;
             cM = 1;
         } else if (num > m) {
